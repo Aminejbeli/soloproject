@@ -1,0 +1,110 @@
+#cible{
+    position:absolute;
+   animation:linear infinite;
+   animation-name:run;
+    animation-duration:15s;
+    width: 250px;
+    padding-top: 5px;
+ }
+ 
+  @keyframes run  {
+    0% {
+       left:0;
+    }
+    
+    50% {
+       left: 82%;
+    }
+    
+    99% {
+       left:0;
+      
+    }
+    
+    100% {
+       left:0;
+    }
+ 
+ } 
+body{
+background-color: rgb(0, 55, 128);
+}
+#change{
+position: absolute;
+margin-top: 638px;
+width: 150px;
+height: 80px;
+margin-left: 485px;
+cursor: pointer;
+background-color: rgb(88, 88, 88);
+color: white;
+font-size: 30px;
+
+}
+#viseur{
+position: absolute;
+width: 55px;
+left: 700px;
+padding-top: 102px;
+}
+#scoren{
+position: absolute;
+font-size: 350%;
+margin-left: 9px;
+margin-top: -276px;
+}
+
+#green1{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    margin-top: 667px;
+    margin-left: 35px;
+}
+
+
+#green2{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    margin-top: 619px;
+    margin-left: 35px;
+}
+
+#green3{
+height: 40px;
+position: absolute;
+width: 60px;
+margin-top: 571px;
+margin-left: 35px;
+}
+
+#battery{
+height: 200px;
+width: 190px;
+margin-left: -30px;
+margin-top: 530px;
+}
+#gameover{
+position: absolute;
+background-color: deeppink;
+width: 150px;
+height: 50px;
+font-size: 200%;
+margin-top: 530px;
+margin-left: 550px;
+color: honeydew;
+cursor: pointer;
+}
+
+#gm{
+position: absolute;
+margin-left: 560px;
+margin-top: -340px;
+font-size: 70px;
+color: rgb(235, 4, 4);
+}
+
+
+
+
